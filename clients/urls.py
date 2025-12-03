@@ -1,7 +1,7 @@
 from django.urls import path
-from .views import client1,client2
+from .views import client1,author2
 
 urlpatterns=[
     path('client1/',client1),
-    path('client2/', client2)
+    path('author2/', author2)
 ]
